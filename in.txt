@@ -1,0 +1,8 @@
+int main()
+{
+int alice,bob, c;
+bob=9;
+c=120;
+alice=((bob+c+204)+24);
+return 0;
+}
