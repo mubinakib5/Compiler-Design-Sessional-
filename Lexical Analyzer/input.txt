@@ -1,0 +1,26 @@
+int inc( int b) {
+    return b<<10 + b>>10;
+}
+
+int add10( string ss, float i) {
+    return ss + (i==0.01? "10" : "0.0");
+}
+int main() {
+    int abc, ab10, carry = 0, under_score;
+    int a = 10;
+    bool OK = 1;
+    int k = inc(a);
+    a = a + 10;
+    a = a - 10;
+    a = a * 10;
+    abc = OK | a;
+    ab10 = OK & 10 | a;
+    if ( ab10 >= abc && !OK || a > k) {
+        a += 10;
+    } elseif ( abc <= ab10 || OK != false && k < a) {
+        ab10 -= 1;
+    } else {
+        under_score = carry * 10 + a;
+    }
+    return 0;
+}
