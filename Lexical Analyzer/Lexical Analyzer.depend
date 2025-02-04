@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1738669220 source:d:\programming\compiler design\lexical analyzer\main.cpp
+	<iostream>
+	<map>
+	<string>
+	<set>
+

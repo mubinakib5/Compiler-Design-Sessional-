@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1738672668 source:d:\programming\compiler design\syntax analyzer\main.cpp
+	<iostream>
+	<regex>
+	<string>
+	<vector>
+	<set>
+

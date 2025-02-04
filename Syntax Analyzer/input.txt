@@ -1,0 +1,7 @@
+int go(int i) {
+    int a, b = 5;
+    for (int i = 0; i < 5; ++i) {
+        b = b + i;
+    }
+    return 0;
+}
